@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse4Pets</title>
+    <!-- Tailwind & DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/a494f4254d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./image/logo-header.png" type="image/x-icon">
+    <!-- Style -->
+    <style>
+        .font-adlam-display {
+            font-family: "ADLaM Display", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .font-sora {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="font-sora mx-auto">
+    <!-- Header Section -->
+    <header class="m-auto bg-orange-50 py-1 lg:py-4">
+        <!-- Navigation -->
+        <nav class="md:max-w-7xl mx-auto flex justify-between px-4 md:px-6 lg:px-10">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <img class="w-12 h-12" src="./image/logo-header.png" alt="">
+                    <h1 class="text-[26px] ml-4 hidden lg:block">Browse<span class="text-yellow-400">4</span>Pets</h1>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Find a Pet</a></li>
+                        <li><a href="">Breeds</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="hidden lg:block">
+                        <div class="flex items-center">
+                            <i class="fa-regular fa-bell mr-4 "></i>
+                            <i class="fa-solid fa-magnifying-glass mr-4 "></i>
+                            <button class="border border-yellow-300 rounded-lg px-4 py-1 mr-4 ">Login</button>
+                            <button class="border bg-yellow-400 rounded-lg px-4 py-1">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
