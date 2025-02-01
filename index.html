@@ -317,7 +317,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-5 mt-10">
                 <!-- Cart 1 -->
                     <div
-                        class="flex flex-col justify-center text-center border border-gray-600 py-9 px-7 lg:py-11 lg:px-10 gap-4">
+                        class="flex flex-col justify-center text-center border border-gray-600 py-9 px-7 lg:py-11 lg:px-10 gap-4 rounded-lg">
                         <div class="avatar mx-auto">
                             <div class="w-24 rounded-full">
                                 <img src="./image/user-1.png">
@@ -335,7 +335,7 @@
                     </div>
                     <!-- Cart 2 -->
                     <div
-                        class="flex flex-col justify-center text-center border border-gray-600 py-9 px-7 lg:py-11 lg:px-10 gap-4">
+                        class="flex flex-col justify-center text-center border border-gray-600 py-9 px-7 lg:py-11 lg:px-10 gap-4 rounded-lg">
                         <div class="avatar mx-auto">
                             <div class="w-24 rounded-full">
                                 <img src="./image/user-2.png">
@@ -353,7 +353,7 @@
                     </div>
                     <!-- Cart 3 -->
                     <div
-                        class="flex flex-col justify-center text-center border border-gray-600 py-9 px-7 lg:py-11 lg:px-10 gap-4">
+                        class="flex flex-col justify-center text-center border border-gray-600 py-9 px-7 lg:py-11 lg:px-10 gap-4 rounded-lg">
                         <div class="avatar mx-auto">
                             <div class="w-24 rounded-full">
                                 <img src="./image/user-3.png">
@@ -371,7 +371,7 @@
                     </div>
         </section>
         <!-- EveryDay Low Price -->
-        <section class="md:max-w-[1320px] mx-auto mt-16 mb-40 lg:mt-36 lg:mb-28 px- lg:px-10 pb-56">
+        <section class="md:max-w-[1320px] mx-auto mt-16 mb-40 lg:mt-36 lg:mb-28 p-3  pb-56">
             <h1 class="font-adlam-display text-3xl md:text-4xl font-bold">Everyday low Price</h1>
             <!-- Container -->
             <div class="grid grid-cols-1 lg:grid-cols-5 mt-10 gap-5">
@@ -403,31 +403,33 @@
         </section>
     </main>
     <!-- Flot Section -->
-    <section>
-        <div class="md:max-w-7xl w-[94%] mx-auto relative ">
-            <div
-                class="md:max-w-7xl mx-auto rounded-xl bg-orange-50 py-12 md:px-[100px] absolute md:-bottom-[240px] lg:-bottom-[190px] -bottom-[280px]">
-                <div class="grid md:grid-cols-2">
-                    <div class="max-w-[220px] max-h-[320px] md:max-w-[340px] md:max-h-[420px] mx-auto">
-                        <img class="w-[70%] mx-auto" src="./image/cute-pet-mid.png" alt="">
-                    </div>
-                    <div class="flex flex-col gap-6 justify-center p-5 items-center md:items-start">
-                        <h2 class="md:text-[36px] text-[22px] font-[600]">Get Pawsome
-                            News!</h2>
-                        <p class=" text-xl text-[#474747] text-center md:text-left">
-                            Exclusive training tips, ticks, product deals and more.
-                        </p>
-                        <input class="px-3 py-3 rounded-md bg-white text-[#C4C4C4] text-[16px] w-[80%]" type="text"
-                            placeholder="Enter email...">
-                        <div>
-                            <button class="border bg-yellow-400 rounded-lg px-5 py-3 font-medium">Find a Pet</button>
+    <section class="p-3">
+        <div class="lg:p-3 ">
+            <div class="max-w-[1300px] mx-auto  relative ">
+                <div
+                    class=" rounded-xl bg-orange-50  py-12 w-full absolute md:-bottom-[240px] lg:-bottom-[190px] -bottom-[280px] ">
+                    <div class="grid md:grid-cols-2">
+                        <div class=" max-h-[320px] md:max-h-[420px] mx-auto">
+                            <img class=" mx-auto" src="./image/cute-pet-mid.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-6 justify-center items-center md:items-start">
+                            <h2 class="md:text-4xl text-xl font-semibold">Get Pawsome
+                                News!</h2>
+                            <p class=" text-xl text-[#474747] text-center md:text-left">
+                                Exclusive training tips, ticks, product deals and more.
+                            </p>
+                            <input class="px-3 py-3 rounded-md bg-white text-black text-[16px] w-[80%]" type="text"
+                                placeholder="Enter email...">
+                            <div>
+                                <button class="border bg-yellow-400 rounded-lg px-5 py-3 font-medium">Find a Pet</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <footer class="bg-yellow-200 mx-auto pt-72 lg:pt-56">
-            <div class="md:max-w-[1320px] mx-auto footer text-base-content p-10">
+            <div class="md:max-w-[1320px] mx-auto flex justify-between text-base-content p-10 ">
                 <nav>
                     <div class="flex items-center">
                         <img class="w-12 h-12" src="./image/logo-footer.png" alt="">
@@ -438,12 +440,12 @@
                         for
                         your furry friends</p>
                 </nav>
-                <nav class="gap-4">
+                <nav class="gap-4 flex flex-col">
                     <a class="link link-hover font-medium">Find a Pet</a>
                     <a class="link link-hover font-medium">Breeds</a>
                     <a class="link link-hover font-medium">Contact Us</a>
                 </nav>
-                <nav>
+                <nav class="mt-10 flex flex-col justify-end">
                     <h6 class="text-base font-medium">Follow Us</h6>
                     <div class="grid grid-flow-col gap-4">
                         <a>
